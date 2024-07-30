@@ -53,6 +53,7 @@ section#login > div#imagem {
     background-repeat: no-repeat;
     background-position: right top;
     display: block;
+    transition: width 0.3s, height 0.3s;
 }
 
 section#login > div#formulario {
