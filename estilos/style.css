@@ -110,6 +110,7 @@ div.campo > input::placeholder {
 
 div.campo > input:focus-within {
   background-color: #0f0f0f;
+  outline: 1px solid #f28705;
 }
 
 form > input[type="submit"] {
