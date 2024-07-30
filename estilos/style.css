@@ -9,3 +9,45 @@
     Laranja: #F28705
     Vermelho: #D93D04
 */
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #011f26;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    color: #b9b8bf;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid #B9B8BF;
+    /* essa configuração é para tudo que estiver excedendo a borda seja escondido. Serve para que a imagem dentro da div imagem não fique transbordando */
+    overflow: hidden;
+}
+
+section#login > div#imagem {
+    background-color: #011f26;
+    background-image: url(../imagens/pattern-building.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
